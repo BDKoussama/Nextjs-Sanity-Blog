@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "studio",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -14,17 +14,20 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^2.30.0",
+    "@sanity/base": "^2.35.2",
     "@sanity/components": "^2.14.0",
-    "@sanity/core": "^2.30.0",
-    "@sanity/default-layout": "^2.30.0",
-    "@sanity/default-login": "^2.30.0",
-    "@sanity/desk-tool": "^2.30.0",
-    "@sanity/vision": "^2.30.0",
+    "@sanity/core": "^2.35.0",
+    "@sanity/default-layout": "^2.35.2",
+    "@sanity/default-login": "^2.35.2",
+    "@sanity/desk-tool": "^2.35.2",
+    "@sanity/vision": "^3.2.4",
     "prop-types": "^15.7",
     "react": "^17.0",
-    "react-dom": "^17.0",
-    "sanity-plugin-vercel-deploy": "^2.1.6",
-    "styled-components": "^5.3.5"
+    "react-dom": "^17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BDKoussama/occasiongiftideas.git"
   }
 }

@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "Blog"
+    "name": "studio"
   },
   "api": {
-    "projectId": "rzjs9z1g",
+    "projectId": "r8tehxoi",
     "dataset": "production"
   },
   "plugins": [
@@ -12,9 +12,7 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool",
-    "vercel-deploy",
-    "@sanity/vision"
+    "@sanity/desk-tool"
   ],
   "env": {
     "development": {
