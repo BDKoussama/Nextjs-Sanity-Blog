@@ -1,0 +1,46 @@
+  .markdown {
+    @apply text-lg leading-relaxed;
+  }
+  
+  .markdown p,
+  .markdown ul,
+  .markdown ol,
+  .markdown blockquote {
+    @apply my-6;
+  }
+
+  .markdown ul li {
+    @apply mb-4;
+    @apply list-disc;
+    @apply font-normal;
+    @apply leading-10;
+  }
+  
+  .markdown p {
+    @apply font-normal;
+    @apply leading-10;
+  }
+
+
+  .markdown h2 {
+    @apply capitalize ;
+    @apply font-bold;
+    @apply text-teal-700;
+    @apply text-2xl lg:text-2xl my-4 leading-10;
+    @apply max-w-xl;
+  }
+  
+  .markdown h3 {
+    @apply capitalize ;
+    @apply font-bold;
+    @apply text-lg lg:text-xl mt-8 mb-4 leading-snug;
+  }
+
+  .markdown a {
+    @apply text-teal-700;
+    @apply font-bold;
+    @apply underline;
+    @apply decoration-solid;
+    @apply hover:text-teal-800;
+  }
+  
