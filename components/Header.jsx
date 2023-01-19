@@ -14,7 +14,7 @@ export default function Header() {
             <h2 className="text-xl font-bold">
                 <Link href="/">
                   <a aria-label='logo'>
-                    OccasionGiftIdeas.
+                    <Logo />
                   </a>
                 </Link>
               </h2>

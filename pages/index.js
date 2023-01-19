@@ -4,7 +4,6 @@ import Container from '../components/Container';
 import PostCard from '../components/PostCard'
 import PostWidget from '../components/PostWidget';
 import Categories from '../components/Categories';
-import AboutWidget from "../components/AboutWidget";
 import { getRecentPosts, getCategories } from '../lib/queries';
 import FeaturedPosts from '../components/FeaturedPosts';
 import Link from 'next/link';
@@ -15,9 +14,9 @@ export default function Home({posts , categories}) {
     <>
       <Layout>
           <Seo 
-                title="Home | SweetBabyTime"
+                title="Home | OccasionGiftIdeas"
                 image = "https://www.sweetbabytime.com/images/Home.jpg"
-                url = "https://www.sweetbabytime.com"
+                url = "https://www.occasiongiftideas.com"
                 description = "SweetBabyTime is a website that discusses the best baby gear, gear at different price ranges."
             />
          <Container>
