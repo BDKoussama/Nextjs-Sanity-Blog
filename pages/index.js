@@ -39,7 +39,6 @@ export default function Home({posts , categories}) {
               </div>  
               <div className="lg:col-span-4 col-span-1">
                   <div className="lg:sticky relative top-8">
-                      <AboutWidget />
                       { posts && <PostWidget posts = {posts}/>}
                       { categories && <Categories categories = {categories} />}
                   </div>

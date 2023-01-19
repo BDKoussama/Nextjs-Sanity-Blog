@@ -9,22 +9,22 @@ export default function Header() {
 
   return (
     <Container>
-      <div className='border-b w-full flex justify-between items-center border-gray-300 py-8 relative' >
+      <div className='w-full flex justify-between items-center border-gray-300 py-8 relative' >
           <div className='block'>
             <h2 className="text-xl font-bold">
                 <Link href="/">
                   <a aria-label='logo'>
-                    <Logo/>
+                    OccasionGiftIdeas.
                   </a>
                 </Link>
               </h2>
           </div>
 
-          <ul className='hidden md:flex '>
-              <li><Link href='/about'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">About</a></Link></li>
-              <li><Link href='/blog'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">Blog</a></Link></li>
-              <li><Link href='/contact'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">Contact Us</a></Link></li>
-              <li><Link href='/car-seat-laws-by-state'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">Car Seat Laws</a></Link></li>
+          <ul className='hidden md:flex'>
+              <li><Link href='/'><a className="hover:underline align-middle ml-4 font-normal cursor-pointer">Home</a></Link></li>
+              <li><Link href='/about'><a className="hover:underline align-middle ml-4 font-normal cursor-pointer">About</a></Link></li>
+              <li><Link href='/blog'><a className="hover:underline align-middle ml-4 font-normal cursor-pointer">Archive</a></Link></li>
+              <li><Link href='/contact'><a className="hover:underline align-middle ml-4 font-normal cursor-pointer">Contact</a></Link></li>
           </ul>
 
           <div className='md:hidden h-8 w-12 cursor-pointer z-20 mr-4 ' onClick={() => setToggle(!toggle)}>
@@ -36,7 +36,6 @@ export default function Header() {
                 <li className='my-4'><Link href='/about'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">About Us</a></Link></li>
                 <li className='my-4'><Link href='/blog'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">Blog</a></Link></li>
                 <li className='my-4'><Link href='/contact'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">Contact Us</a></Link></li>
-                <li className='my-4'><Link href='/car-seat-laws-by-state'><a className="hover:underline align-middle ml-4 font-semibold cursor-pointer">Car Seat Laws</a></Link></li>
             </ul>
           </div>
           
