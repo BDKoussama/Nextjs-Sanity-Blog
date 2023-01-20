@@ -15,7 +15,7 @@ export default function Footer() {
                 </p>
                 <ul className='flex-col flex lg:flex-row items-center justify-center  text-xl lg:text-sm font-normal'>
                     <li className='mx-4 my-3 lg:my-0'>
-                        <Link href='/blog'><a className="hover:underline align-middle font-semibold cursor-pointer">Blog</a></Link>
+                        <Link href='/blog'><a className="hover:underline align-middle font-semibold cursor-pointer">Archive</a></Link>
                     </li>
                     <li className='mx-4 my-3 lg:my-0'>
                         <Link href='/terms-conditions'><a className="hover:underline align-middle font-semibold cursor-pointer">Terms & Conditions</a></Link>

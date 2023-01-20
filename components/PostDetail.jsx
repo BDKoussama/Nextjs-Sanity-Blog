@@ -37,26 +37,32 @@ const ptComponents = {
 
 export default function PostDetail({post}) {
     return (
-        <article className = "bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8" >
+        <article className = "pb-12 mb-8" >
             <div className="pl-6 pr-4 lg:px-0">
-              <div className="flex items-center mb-8 w-full">
-                <div className="hidden md:flex justify-between lg:mb-0 h-[32px] w-[32px] mt-4 mr-8 items-center">
-                    <Image
-                        alt={`Profile Image for ${post?.author?.name}`}
-                        fill = "responsive"
-                        height={32}
-                        width={32}
-                        className="align-middle rounded-full w-8 h-8"
-                        src={urlForImage(post?.author?.image).height(32).width(32).fit('max').auto('format').url()}
-                    />
-                  <p className="inline align-middle text-gray-700 ml-0 font-medium text-md mr-4">{post?.author?.name}</p>
+              
+              <h1 className="text-3xl md:text-5xl lg:text-5xl w-full lg:w-10/12 font-bold tracking-tighter leading-tight   md:text-left">{post?.title}</h1>
+             
+              <div className="flex items-center mb-5 w-full">
+                <div className="flex justify-between lg:mb-0 mt-4  items-center">
+                  <div className="h-[32px] w-[32px] mr-3">
+                      <Image
+                            alt={`Profile Image for ${post?.author?.name}`}
+                            fill = "responsive"
+                            height={32}
+                            width={32}
+                            className="align-middle rounded-full"
+                            src={urlForImage(post?.author?.image).height(32).width(32).fit('max').auto('format').url()}
+                        />
+                  </div>
+                  <p className="inline align-middle text-gray-500 ml-0 font-medium text-md  ">{post?.author?.name}</p>
+                  <span className="mx-3 text-2xl text-gray-500"> • </span>
                 </div>
+                
                 <div className="mt-4">
-                  <PublishDate publishedAt={post?.publishedAt} />
+                  <PublishDate publishedAt={post?.publishedAt} style = "text-sm color-gray-500" />
                 </div>
               </div>
 
-              <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold tracking-tighter leading-tight  mb-12 md:text-left">{post?.title}</h1>
               <figure className = "relative overflow-hidden shadow-md mb-6">
                 <Image
                   loading="lazy"

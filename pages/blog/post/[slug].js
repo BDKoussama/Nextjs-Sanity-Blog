@@ -28,7 +28,7 @@ const Post = ({post , relatedPosts}) => {
             </div>
             <div className='cold-span-1 lg:col-span-4'>
                 <div className='relative lg:sticky top-8'>
-                    {relatedPosts && (<PostWidget posts={relatedPosts} slug = {post?.slug}/> ) }
+                    {relatedPosts.length !== 0 && (<PostWidget posts={relatedPosts} slug = {post?.slug}/> ) }
                 </div>
             </div>
         </div>
