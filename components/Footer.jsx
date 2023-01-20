@@ -5,7 +5,7 @@ import Logo from './svg/Logo';
 
 export default function Footer() {
     return(
-        <footer className="bg-teal-50 p-5 text-center mt-20">
+        <footer className="bg-[#f3eff6] p-10 text-center mt-20">
             <Container>
                 <div className='mx-auto rounded-full mb-5 flex items-center justify-center ' >
                     <Logo />
@@ -27,8 +27,8 @@ export default function Footer() {
                         <Link href='/contact'><a className="hover:underline align-middle font-semibold cursor-pointer">Contact Us</a></Link>
                     </li>
                 </ul>
-                <div className='border-t mt-8 border-teal-300 text-left text-sm text-gray-500 py-4'>
-                    <p>Copyright© 2022 SweetBabyTime.</p>
+                <div className='border-t mt-8 border-main text-left text-sm text-gray-500 py-4'>
+                    <p>Copyright© 2022 OccasionGiftIdeas.</p>
                     <p>All rights reserved</p>
                 </div>
             </Container>

@@ -13,10 +13,10 @@ export default function About () {
                 url= "https://www.sweetbabytime.com/about"
             />
             <Container>
-                <div className={`p-5 md:p-10  bg-white shadow-lg rounded-lg mx-auto ${markdownStyles.markdown}`}>
-                    <h1 className="text-2xl lg:text-2xl font-bold">About Sweet Baby Time</h1>
+                <div className={`p-5 mx-auto ${markdownStyles.markdown}`}>
+                    <h1 className="text-2xl lg:text-2xl font-bold text-main text-center">About OccasionGiftIdeas</h1>
 
-                    <div className="mr-0 md:mr-40">
+                    <div className="mr-0 md:mr-40 text-center w-full">
                         <p className="my-4">
                             Sweet Baby Time is a website that discusses the best baby gear, gear at different price ranges.
                         </p>

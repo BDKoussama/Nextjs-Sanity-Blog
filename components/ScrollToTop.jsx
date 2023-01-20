@@ -32,7 +32,7 @@ export default function ScrollToTop() {
             aria-label = "scroll to top"
             data-mdb-ripple="true"
             data-mdb-ripple-color="light"
-            className="z-50 inline-block p-3 bg-teal-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-black hover:shadow-lg focus:bg-black focus:shadow-lg focus:outline-none focus:ring-0 active:bg-black active:shadow-lg transition duration-150 ease-in-out hidden bottom-5 right-5 fixed"
+            className="z-50 inline-block p-3 bg-main  text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-hover hover:shadow-lg focus:bg-hover focus:shadow-lg focus:outline-none focus:ring-0 active:bg-hover active:shadow-lg transition duration-150 ease-in-out hidden bottom-5 right-5 fixed"
             id="btn-back-to-top"
             onClick={backToTop}
         >

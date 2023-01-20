@@ -32,7 +32,7 @@ export default function Home({posts , categories}) {
                 </div>
                  <div className="text-center my-10">
                         <Link href="/blog">
-                            <a className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-teal-700 text-md font-medium rounded-full text-white px-6 py-2 cursor-pointer">See All Articles</a>
+                            <a className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-main   text-md font-medium rounded-full text-white px-6 py-2 cursor-pointer">See All Posts</a>
                         </Link>
                   </div>
               </div>  

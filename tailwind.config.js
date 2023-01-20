@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
+        'main' : "#8154ac",
+        'hover': "#603d81",
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',

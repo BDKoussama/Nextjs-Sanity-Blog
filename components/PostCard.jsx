@@ -21,7 +21,7 @@ export default function PostCard({post , index}){
                     />
                 </div>
 
-                <span className="block text-sm font-medium text-teal-700 mt-5 mb-2 uppercase"> {post.category} </span>
+                <span className="block text-sm font-medium text-main mt-5 mb-2 uppercase"> {post.category} </span>
 
 
                 <h1 className="transition duration-300 text-left mb-4 cursor-pointer hover:text-teal-500 text-2xl lg:text-xl font-bold">
