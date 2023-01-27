@@ -5,6 +5,7 @@ import {urlForImage} from '../lib/utils';
 import markdownStyles from './markdown-styles.module.css';
 import PublishDate from "./PublishDate";
 import ProductReview from "./ProductReview";
+import AffiliateItem from "./AffiliateItem";
 
 const ptComponents = {
   types: {
@@ -74,6 +75,9 @@ export default function PostDetail({post}) {
                   src={urlForImage(post?.mainImage).height(850).width(1280).fit('max').auto('format').url()}
                 />
               </figure>
+
+              <AffiliateItem />
+              
               <div className={`mx-auto ${markdownStyles.markdown}`}>
                   <PortableText
                     value={post?.body}

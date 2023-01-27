@@ -2,7 +2,10 @@
     @apply text-lg leading-relaxed;
   }
   
-  .markdown p,
+  .markdown p{
+    @apply my-4;
+  }
+
   .markdown ul,
   .markdown ol,
   .markdown blockquote {
@@ -18,7 +21,7 @@
   
   .markdown p {
     @apply font-normal;
-    @apply leading-9;
+    @apply leading-8;
   }
 
 
