@@ -2,11 +2,14 @@ import Link from "next/link";
 import Image from 'next/image'
 import { urlForImage } from '../lib/utils'
 import PublishDate from '../components/PublishDate';
+import { useRouter } from "next/router";
 
 export default function PostCard({post , index}){
     const {title = '', slug = '', publishedAt = '' , mainImage , author , excerpt = ''} = post ;
+    const router = useRouter();
+
     return (
-        <div className="relative col-span-1 md:col-span-1 lg:col-span-6 bg-white rounded-lg mb-2 flex flex-col transition duration-500 ease transform hover:-translate-y-1 ">
+        <div className={`relative col-span-1 md:col-span-1 ${router.asPath.includes('/category') ? 'lg:col-span-4' : 'lg:col-span-6'} mb-2 flex flex-col transition duration-500 ease transform hover:-translate-y-1`}>
                 <div className="relative overflow-hidden shadow-md pb-0">
                     <Image
                         priority = {index === 0 ? true : false}

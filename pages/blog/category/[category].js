@@ -14,7 +14,7 @@ export default function CategoryPage({posts}) {
     return(
         <Layout>
             <Seo 
-                title= {`${category} Archive - SweetBabyTime`}
+                title= {`${category} - Gift Ideas`}
                 url= {`https://www.sweetbabytime.com/blog/category/${category}`}
                 description = "Sweet Baby Time is a website that discusses the best baby gear, gear at different price ranges."
                 image = "https://www.sweetbabytime.com/images/Archive.jpg"

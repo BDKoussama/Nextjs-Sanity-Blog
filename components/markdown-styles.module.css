@@ -18,29 +18,29 @@
   
   .markdown p {
     @apply font-normal;
-    @apply leading-10;
+    @apply leading-9;
   }
 
 
   .markdown h2 {
     @apply capitalize ;
     @apply font-bold;
-    @apply text-teal-700;
-    @apply text-2xl lg:text-2xl my-4 leading-10;
-    @apply max-w-xl;
+    @apply text-violet-900;
+    @apply text-2xl lg:text-[30px] mb-4 mt-10 leading-10;
+    @apply max-w-xl ;
   }
   
   .markdown h3 {
     @apply capitalize ;
     @apply font-bold;
-    @apply text-lg lg:text-xl mt-8 mb-4 leading-snug;
+    @apply text-lg lg:text-2xl mt-8 mb-4 leading-snug;
   }
 
   .markdown a {
-    @apply text-teal-700;
+    @apply text-violet-700;
     @apply font-bold;
     @apply underline;
     @apply decoration-solid;
-    @apply hover:text-teal-800;
+    @apply hover:text-violet-500;
   }
   

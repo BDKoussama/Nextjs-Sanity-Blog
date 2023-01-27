@@ -8,7 +8,11 @@ export default function Footer() {
         <footer className="bg-[#f3eff6] p-10 text-center mt-20">
             <Container>
                 <div className='mx-auto rounded-full mb-5 flex items-center justify-center ' >
-                    <Logo />
+                    <Logo 
+                        gradientIdFirst= "paint6_linear_1_21" 
+                        gradientIdSecond= "paint7_linear_1_21" 
+                        gradientIdLast = "paint8_linear_1_21" 
+                    />
                 </div>
                 <p className=' w-full md:w-[38vw] mx-auto mb-5'>
                     Sweet Baby Time is committed to finding and reviewing all the best products for babies like ( best baby cribs, bassinets, baby chairs, and other baby furniture. )  
@@ -27,7 +31,7 @@ export default function Footer() {
                         <Link href='/contact'><a className="hover:underline align-middle font-semibold cursor-pointer">Contact Us</a></Link>
                     </li>
                 </ul>
-                <div className='border-t mt-8 border-main text-left text-sm text-gray-500 py-4'>
+                <div className='border-t mt-8 border-main text-center text-sm text-gray-500 py-4'>
                     <p>Copyright© 2022 OccasionGiftIdeas.</p>
                     <p>All rights reserved</p>
                 </div>
