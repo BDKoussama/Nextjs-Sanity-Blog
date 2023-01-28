@@ -65,5 +65,9 @@ export default {
       type: 'product',
       name: 'product',
     },
+    {
+      type : 'affiliateItem',
+      name : 'affiliateItem'
+    }
   ],
 }

@@ -5,7 +5,7 @@ import Logo from './svg/Logo';
 
 export default function Footer() {
     return(
-        <footer className="bg-[#f3eff6] p-10 text-center mt-20">
+        <footer className="bg-violet-50 p-10 text-center mt-20">
             <Container>
                 <div className='mx-auto rounded-full mb-5 flex items-center justify-center ' >
                     <Logo 

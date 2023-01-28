@@ -32,6 +32,14 @@ const ptComponents = {
       return (
         <ProductReview product = {value}/>
       )
+    },
+    affiliateItem : ({value}) => {
+      if(!value){
+        return null;
+      }
+      return (
+        <AffiliateItem  product = {value} />
+      )
     }
   }
 }
@@ -75,8 +83,6 @@ export default function PostDetail({post}) {
                   src={urlForImage(post?.mainImage).height(850).width(1280).fit('max').auto('format').url()}
                 />
               </figure>
-
-              <AffiliateItem />
               
               <div className={`mx-auto ${markdownStyles.markdown}`}>
                   <PortableText

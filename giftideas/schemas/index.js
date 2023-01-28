@@ -6,6 +6,7 @@ import product from './product'
 import AffiliateLink from './buyLink';
 import Policy from './privacy';
 import Terms from './terms';
+import affiliateItem from './affiliateItem'
 
 export const schemaTypes = [
     blockContent,
@@ -15,5 +16,6 @@ export const schemaTypes = [
     product,
     AffiliateLink,
     Policy,
-    Terms
+    Terms,
+    affiliateItem
 ]
