@@ -10,10 +10,10 @@
   .markdown ol,
   .markdown blockquote {
     @apply my-6;
+    @apply ml-10;
   }
 
   .markdown ul li {
-    @apply mb-4;
     @apply list-disc;
     @apply font-normal;
     @apply leading-10;
@@ -24,6 +24,12 @@
     @apply leading-8;
   }
 
+  .markdown h1 {
+      @apply capitalize ;
+      @apply font-bold;
+      @apply text-violet-900;
+      @apply text-3xl lg:text-[40px] mb-4 mt-10 leading-10;
+  }
 
   .markdown h2 {
     @apply capitalize ;
@@ -38,6 +44,13 @@
     @apply font-bold;
     @apply text-xl lg:text-2xl mt-8 mb-4 leading-snug;
   }
+
+  .markdown h4 {
+    @apply capitalize ;
+    @apply font-medium;
+    @apply text-xl mb-4 leading-snug;
+  }
+
 
   .markdown a {
     @apply text-violet-700;

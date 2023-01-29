@@ -16,7 +16,7 @@ export default function Terms ({terms}) {
                 url = "https://www.sweetbabytime.com/terms-conditions"
             />
             <Container>
-                <div className={`p-10 bg-white shadow-lg rounded-lg rounded mx-auto ${markdownStyles.markdown}`}>
+                <div className={`p-10  bg-white shadow-lg rounded-lg mx-auto ${markdownStyles.markdown}`}>
                   {terms.length !== 0 && (
                       <PortableText
                           value={terms[0]?.content}
