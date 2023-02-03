@@ -2,24 +2,25 @@ import Container from "../../../components/Container";
 import Layout from "../../../components/Layout";
 import PostCard from "../../../components/PostCard";
 import Seo from "../../../components/Seo";
-import { getCategoriesPaths , getPostsByCategory } from "../../../lib/queries";
+import { getCategoriesPaths , getCurrentCategory, getPostsByCategory } from "../../../lib/queries";
 
 
 
-export default function CategoryPage({posts}) {
-
-
-    const category = posts.lenght !== 0 && posts[0]?.category;
+export default function CategoryPage({posts , category}) {
 
     return(
         <Layout>
             <Seo 
-                title= {`${category} - Occasion Gift Ideas`}
-                url= {`https://occasiongiftideas.com/blog/category/${category}`}
-                description = ""
+                title= {`${category.title} - Occasion Gift Ideas`}
+                url= {`https://occasiongiftideas.com/blog/categories/${category.slug}`}
+                description = {category.description}
                 image = "https://occasiongiftideas.com/images/Archive.jpg"
             />  
             <Container>
+
+                <h1> {category.title} Page</h1>
+                <p>{category.description}</p>
+
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-10'>
                     {posts.lenght !== 0 && posts.map(post  => ( <PostCard key={post._id} post = {post}/> ))}
                 </div>
@@ -31,6 +32,7 @@ export default function CategoryPage({posts}) {
 
 
     export async function getStaticPaths(){
+
         const paths = await getCategoriesPaths()
 
         return {
@@ -44,9 +46,10 @@ export default function CategoryPage({posts}) {
         
         const { category = "" } = context.params ; 
         const posts = await getPostsByCategory(category);
+        const currentCategory = await getCurrentCategory(category)
 
         return {
-            props : {posts}
+            props : {posts , category : currentCategory }
         }
     }
 

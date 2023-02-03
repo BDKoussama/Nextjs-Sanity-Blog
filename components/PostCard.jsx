@@ -56,7 +56,3 @@ export default function PostCard({post , index}){
     )
 }
 
-
-/** <p className="text-center hidden lg:text-md text-gray-700 font-normal mb-4 p-1">
-                    {excerpt}
-                </p>     */
