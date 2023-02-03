@@ -11,15 +11,15 @@ export default function CategoryPage({posts , category}) {
     return(
         <Layout>
             <Seo 
-                title= {`${category.title} - Occasion Gift Ideas`}
-                url= {`https://occasiongiftideas.com/blog/categories/${category.slug}`}
-                description = {category.description}
+                title= {`${category?.title} - Occasion Gift Ideas`}
+                url= {`https://occasiongiftideas.com/blog/categories/${category?.slug}`}
+                description = {category?.description}
                 image = "https://occasiongiftideas.com/images/Archive.jpg"
             />  
             <Container>
 
-                <h1> {category.title} Page</h1>
-                <p>{category.description}</p>
+                <h1>{category?.title} Page</h1>
+                <p>{category?.description}</p>
 
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-10'>
                     {posts.lenght !== 0 && posts.map(post  => ( <PostCard key={post._id} post = {post}/> ))}

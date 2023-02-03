@@ -7,6 +7,8 @@ import PublishDate from "./PublishDate";
 import ProductReview from "./ProductReview";
 import AffiliateItem from "./AffiliateItem";
 
+import Link from 'next/link';
+
 const ptComponents = {
   types: {
     image: ({ value }) => {
@@ -45,6 +47,7 @@ const ptComponents = {
 }
 
 export default function PostDetail({post}) {
+
     return (
         <article className = "pb-12 mb-8" >
             <div className="pl-6 pr-4 lg:px-0">
@@ -63,7 +66,11 @@ export default function PostDetail({post}) {
                             src={urlForImage(post?.author?.image).height(32).width(32).fit('max').auto('format').url()}
                         />
                   </div>
-                  <p className="inline align-middle text-gray-500 ml-0 font-medium text-md  ">{post?.author?.name}</p>
+                  <p className="inline align-middle hover:text-violet-900 text-gray-500 ml-0 font-medium text-md  cursor-pointer">
+                      <Link  href="/blog/authors/[author]"  as={`/blog/authors/${post?.author?.slug}`}> 
+                          <span>{post?.author?.name}</span> 
+                      </Link>
+                  </p>
                   <span className="mx-3 text-2xl text-gray-500"> • </span>
                 </div>
                 
