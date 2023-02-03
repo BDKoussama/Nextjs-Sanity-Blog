@@ -66,8 +66,9 @@ export default {
       name: 'product',
     },
     {
-      type : 'affiliateItem',
-      name : 'affiliateItem'
+      type : 'reference',
+      name : 'affiliateItem',
+      to: [{type: 'affiliateItem'}]
     }
   ],
 }

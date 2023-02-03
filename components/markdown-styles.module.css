@@ -9,8 +9,21 @@
   .markdown ul,
   .markdown ol,
   .markdown blockquote {
-    @apply my-6;
-    @apply ml-10;
+    @apply my-6 ;
+
+  }
+
+  .markdown ul,
+  .markdown ol {
+    @apply ml-2 md:ml-10;
+  }
+
+  .markdown blockquote {
+    @apply bg-gray-100;
+    @apply p-5;
+    @apply rounded-lg;
+    @apply border-l-2 border-violet-900
+
   }
 
   .markdown ul li {

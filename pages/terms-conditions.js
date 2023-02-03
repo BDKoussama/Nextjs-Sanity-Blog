@@ -11,9 +11,10 @@ export default function Terms ({terms}) {
     return (
         <Layout>
             <Seo 
-                title="Terms Conditions | SweetBabyTime"
-                image = "https://www.sweetbabytime.com/images/Home.jpg"
-                url = "https://www.sweetbabytime.com/terms-conditions"
+                title="Terms & Conditions | Occasion Gift Ideas"
+                description= "Stay informed and fully aware of the rules and guidelines for using our site. Read our Terms & Conditions for all the necessary details regarding your use of our site and services."
+                image = "https://occasiongiftideas.com/images/Home.jpg"
+                url = "https://occasiongiftideas.com/terms-conditions"
             />
             <Container>
                 <div className={`p-10  bg-white shadow-lg rounded-lg mx-auto ${markdownStyles.markdown}`}>

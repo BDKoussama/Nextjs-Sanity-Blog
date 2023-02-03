@@ -4,7 +4,7 @@ export default {
     type: 'document',
     fields: [
       {
-        name: 'title',
+        name: 'title' ,
         title: 'Title',
         type: 'string',
       },
@@ -24,6 +24,11 @@ export default {
       {
         name: 'price',
         title: 'Price',
+        type: 'string',
+      },
+      {
+        name: 'linkText',
+        title: 'Affiliate Source',
         type: 'string',
       },
       {

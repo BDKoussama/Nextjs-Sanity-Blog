@@ -16,10 +16,10 @@ export default function Blog(props) {
         <>
             <Layout>  
                 <Seo 
-                    title= "Archives Page | SweetBabyTime"
-                    description= "Sweet Baby Time is a website that discusses the best baby gear, gear at different price ranges."
-                    url="https://www.sweetbabytime.com/blog"
-                    image= "https://www.sweetbabytime.com/images/Archive.jpg"
+                    title= "Archives Page | Occasion Gift Ideas"
+                    description = "Take a stroll down memory lane with our archive page. Revisit past gift ideas, relive cherished moments, and rediscover inspiration for your next gift giving occasion."
+                    url="https://occasiongiftideas.com/blog"
+                    image= "https://occasiongiftideas.com/images/Archive.jpg"
                 />
                 <Container>
                     <div className='grid grid-cols-1 lg:grid-cols-12 gap-10' >

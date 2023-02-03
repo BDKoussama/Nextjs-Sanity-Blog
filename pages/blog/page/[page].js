@@ -14,10 +14,10 @@ export default function BlogIndexPage(props) {
     return(
         <Layout>
             <Seo 
-                title= {`Archives | SweetBabyTime - Page ${currentPage} - SweetBabyTime`}
-                url = {`https://www.sweetbabytime.com/blog/page/${currentPage}`}
-                description = "Sweet Baby Time is a website that discusses the best baby gear, gear at different price ranges."
-                image= "https://www.sweetbabytime.com/images/Archive.jpg"
+                title= {`Archives | Occasion Gift Ideas - Page ${currentPage}`}
+                url = {`https://occasiongiftideas.com/blog/page/${currentPage}`}
+                description = "Take a stroll down memory lane with our archive page. Revisit past gift ideas, relive cherished moments, and rediscover inspiration for your next gift giving occasion."
+                image= "https://occasiongiftideas.com/images/Archive.jpg"
             />
             <Container>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-10' >

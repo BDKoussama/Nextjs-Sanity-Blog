@@ -14,10 +14,10 @@ export default function Home({posts , categories}) {
     <>
       <Layout>
           <Seo 
-                title="Home | OccasionGiftIdeas"
-                image = "https://www.sweetbabytime.com/images/Home.jpg"
-                url = "https://www.occasiongiftideas.com"
-                description = "SweetBabyTime is a website that discusses the best baby gear, gear at different price ranges."
+                title="Home | Occasion Gift Ideas"
+                image = "https://occasiongiftideas.com/images/Home.jpg"
+                url = "https://occasiongiftideas.com/"
+                description = "Discover unique and thoughtful gift ideas for every occasion on our site. Browse our curated collection and find the perfect present for friends, family, and loved ones."
             />
          <Container>
 

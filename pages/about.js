@@ -9,10 +9,10 @@ export default function About () {
     return (
         <Layout>
             <Seo
-                title= "About | SweetBabyTime"
-                description = "SweetBabyTime is a website that discusses the best baby gear, gear at different price ranges."
-                image= "https://www.sweetbabytime.com/images/About.jpg"
-                url= "https://www.sweetbabytime.com/about"
+                title= "About | Occasion Gift Ideas"
+                description = "Learn about our mission to provide inspiration for gift giving. Discover the team behind our site, and how we bring you the latest and greatest gift ideas for all your gifting needs."
+                image= "https://occasiongiftideas.com/images/About.jpg"
+                url= "https://occasiongiftideas.com/about"
             />
             <Container>
                 <div className={`p-5 mx-auto ${markdownStyles.markdown} !text-center`}>

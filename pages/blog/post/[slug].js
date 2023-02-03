@@ -4,6 +4,7 @@ import Container from '../../../components/Container';
 import PostWidget from '../../../components/PostWidget';
 import PostDetail from '../../../components/PostDetail';
 import Author from '../../../components/Author';
+import {urlForImage} from '../../../lib/utils';
 import {getCurrentPost , getRelatedPosts , getAllPaths} from '../../../lib/queries';
 import Seo from '../../../components/Seo';
 
@@ -13,8 +14,8 @@ const Post = ({post , relatedPosts}) => {
       <Seo 
         title={post?.title}
         description = {post?.excerpt}
-        url = {`https://www.sweetbabytime.com/blog/post/${post?.slug}`}
-        image = "https://www.sweetbabytime.com/images/Home.jpg"
+        url = {`https://occasiongiftideas.com/blog/post/${post?.slug}`}
+        image = {`${urlForImage(post?.mainImage).fit('max').auto('format').url()}`}
       />
      <Container>
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>

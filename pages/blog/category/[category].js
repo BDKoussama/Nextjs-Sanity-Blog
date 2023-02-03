@@ -14,10 +14,10 @@ export default function CategoryPage({posts}) {
     return(
         <Layout>
             <Seo 
-                title= {`${category} - Gift Ideas`}
-                url= {`https://www.sweetbabytime.com/blog/category/${category}`}
-                description = "Sweet Baby Time is a website that discusses the best baby gear, gear at different price ranges."
-                image = "https://www.sweetbabytime.com/images/Archive.jpg"
+                title= {`${category} - Occasion Gift Ideas`}
+                url= {`https://occasiongiftideas.com/blog/category/${category}`}
+                description = ""
+                image = "https://occasiongiftideas.com/images/Archive.jpg"
             />  
             <Container>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-10'>
