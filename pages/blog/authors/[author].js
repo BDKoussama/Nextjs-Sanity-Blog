@@ -23,7 +23,7 @@ export default function AuthorPage({author}) {
                             objectFit="cover"
                             priority
                             alt = {`Author picture - ${author?.name}`}
-                            src={urlForImage(author?.image).height(28).width(28).fit('max').auto('format').url()}
+                            src={urlForImage(author?.image).height(200).width(200).fit('max').auto('format').url()}
                         />
                     </div>
                     <h1 className="text-2xl font-bold mb-10">{author?.name}</h1>
