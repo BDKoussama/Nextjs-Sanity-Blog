@@ -44,7 +44,7 @@ export default function AuthorPage({author}) {
 
         return {
           paths: paths.map((author) => ({params: {author}})),
-          fallback: true,
+          fallback: "blocking"
         }
     }
 

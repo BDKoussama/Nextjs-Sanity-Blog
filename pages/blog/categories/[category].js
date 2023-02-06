@@ -50,7 +50,7 @@ export default function CategoryPage({posts , category}) {
 
         return {
           paths: paths.map((category) => ({params: {category}})),
-          fallback: true,
+          fallback: "blocking",
         }
     }
 
