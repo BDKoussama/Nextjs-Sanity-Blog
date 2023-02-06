@@ -14,7 +14,7 @@ export default function Footer() {
                         gradientIdLast = "paint8_linear_1_21" 
                     />
                 </div>
-                <span className='font-bold text-sm md:text-lg w-full md:w-[38vw] mx-auto mb-5'>
+                <span className='block font-bold text-sm md:text-lg w-full md:w-[38vw] mx-auto mb-5'>
                     Your one-stop destination for unique and thoughtful gift ideas for any occasion.
                 </span>
                 <ul className='flex-col flex lg:flex-row items-center justify-center  text-xl lg:text-sm font-normal'>
