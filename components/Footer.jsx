@@ -14,7 +14,7 @@ export default function Footer() {
                         gradientIdLast = "paint8_linear_1_21" 
                     />
                 </div>
-                <h4 className='font-bold text-lg w-full md:w-[38vw] mx-auto mb-5'>
+                <h4 className='font-bold text-sm md:text-lg w-full md:w-[38vw] mx-auto mb-5'>
                     Your one-stop destination for unique and thoughtful gift ideas for any occasion.
                 </h4>
                 <ul className='flex-col flex lg:flex-row items-center justify-center  text-xl lg:text-sm font-normal'>
@@ -31,7 +31,7 @@ export default function Footer() {
                         <Link href='/contact'><a className="hover:underline align-middle font-semibold cursor-pointer">Contact Us</a></Link>
                     </li>
                 </ul>
-                <div className='border-t mt-8 border-main text-center text-sm text-gray-500 py-4 flex flex-col md:flex-row items-center justify-between'>
+                <div className='border-t mt-8 border-main text-center text-sm text-gray-900 py-4 flex flex-col md:flex-row items-center justify-between'>
                     <p>Copyright© 2022 OccasionGiftIdeas.</p>
                     <p>All rights reserved</p>
                 </div>
