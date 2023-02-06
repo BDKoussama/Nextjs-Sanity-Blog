@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.sweetbabytime.com
+Host: https://www.occasiongiftideas.com
 
 # Sitemaps
-Sitemap: https://www.sweetbabytime.com/sitemap.xml
+Sitemap: https://www.occasiongiftideas.com/sitemap.xml

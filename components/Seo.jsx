@@ -9,15 +9,18 @@ export default function Seo({title, description, image , url}) {
             <meta name="description" content={description} />
             <meta itemProp="name" content={title} />
             <meta itemProp="description" content={description} />
-            <meta itemProp="image" content={image} />
+            <meta itemProp="image" content={image} />z
             {/** Social media Metas */}
+
+            <meta name="robots" content="all" />
+
 
             {/** Facebook OG */}
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image}/>
             <meta property="og:url" content={url} />
-            <meta property="og:site_name" content="Sweet-Baby-Time | Baby Gear Review" />
+            <meta property="og:site_name" content="Occasion Gift Ideas" />
 
 
             {/* Twitter  */}

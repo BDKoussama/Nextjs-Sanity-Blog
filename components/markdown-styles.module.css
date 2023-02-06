@@ -55,7 +55,7 @@
   .markdown h3 {
     @apply capitalize ;
     @apply font-bold;
-    @apply text-xl lg:text-2xl mt-8 mb-4 leading-snug;
+    @apply text-2xl lg:text-2xl mt-8 mb-4 leading-snug;
   }
 
   .markdown h4 {

@@ -50,7 +50,7 @@ export default function PostDetail({post}) {
 
     return (
         <article className = "pb-12 mb-8" >
-            <div className="pl-6 pr-4 lg:px-0">
+            <div className="px-2 lg:px-0">
               
               <h1 className="text-3xl md:text-5xl lg:text-5xl w-full lg:w-10/12 font-bold tracking-tighter leading-tight   md:text-left">{post?.title}</h1>
              
@@ -79,13 +79,12 @@ export default function PostDetail({post}) {
                 </div>
               </div>
 
-              <figure className = "relative overflow-hidden shadow-md mb-6">
+              <figure className = "h-[17rem] md:h-[30rem] w-full relative overflow-hidden rounded-lg shadow-md mb-6">
                 <Image
                   loading="lazy"
-                  layout="responsive"
-                  width={1280}
-                  height={850}
-                  className="shadow-lg rounded-t-lg lg:rounded-lg"
+                  layout="fill"
+                  objectFit="cover"
+                  className="shadow-lg"
                   alt={`Cover Image for ${post?.title}`}
                   src={urlForImage(post?.mainImage).height(850).width(1280).fit('max').auto('format').url()}
                 />
