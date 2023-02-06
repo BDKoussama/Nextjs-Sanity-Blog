@@ -44,7 +44,7 @@ export async function getStaticPaths(){
   const paths = await getAllPaths()
   return {
     paths: paths.map((slug) => ({params: {slug}})),
-    fallback: false,
+    fallback: "blocking",
   }
 }
 
@@ -57,7 +57,8 @@ export async function getStaticProps(context) {
     props: {
       post,
       relatedPosts    
-    }
+    },
+    revalidate: 60,
   }
 }
 
