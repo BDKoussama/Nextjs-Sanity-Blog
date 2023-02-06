@@ -7,4 +7,3 @@ Host: https://www.occasiongiftideas.com
 
 # Sitemaps
 Sitemap: https://www.occasiongiftideas.com/sitemap.xml
-    
