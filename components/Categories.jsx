@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Categories({categories}) {
     return (
-        <div className="p-8 pb-12 mb-8">
+        <div className="px-2 py-8 pb-12 mb-8">
             <span className="text-xl block mb-8 font-semibold border-b pb-4">Categories</span>
             {categories.length > 0  && categories.map((category, index) => (
                 <Link key={index} href="/blog/categories/[category]"  as={`/blog/categories/${category.slug}`}>

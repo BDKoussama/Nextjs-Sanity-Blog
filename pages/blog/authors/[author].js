@@ -44,7 +44,7 @@ export default function AuthorPage({author}) {
 
         return {
           paths: paths.map((author) => ({params: {author}})),
-          fallback: false,
+          fallback: true,
         }
     }
 
@@ -56,7 +56,8 @@ export default function AuthorPage({author}) {
         const currentAuthor = await getCurrentAuthor(author)
 
         return {
-            props : {author : currentAuthor }
+            props : {author : currentAuthor },
+            revalidate: 60,
         }
     }
 

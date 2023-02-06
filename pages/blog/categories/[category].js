@@ -50,7 +50,7 @@ export default function CategoryPage({posts , category}) {
 
         return {
           paths: paths.map((category) => ({params: {category}})),
-          fallback: false,
+          fallback: true,
         }
     }
 
@@ -62,7 +62,8 @@ export default function CategoryPage({posts , category}) {
         const currentCategory = await getCurrentCategory(category)
 
         return {
-            props : {posts , category : currentCategory }
+            props : {posts , category : currentCategory } ,
+            revalidate: 60,
         }
     }
 

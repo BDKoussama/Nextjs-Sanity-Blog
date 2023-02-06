@@ -15,7 +15,7 @@ export default function PostWidget({posts , slug}) {
     },[slug])
 
     return (
-        <div className="p-8 pb-12 mb-8">
+        <div className="px-2 py-8 mb-8">
         <span className="text-xl block mb-8 font-semibold border-b pb-4">{slug ? 'Related Posts' : 'Recent Posts'}</span>
         {relatedPosts.length > 0 && relatedPosts.map((post, index) => (
             <div key={index} className="flex items-center w-full mb-4">

@@ -5,7 +5,7 @@ import Logo from './svg/Logo';
 
 export default function Footer() {
     return(
-        <footer className="bg-violet-50 p-10 text-center mt-20">
+        <footer className="bg-violet-50 px-5 py-10 text-center mt-20">
             <Container>
                 <div className='mx-auto rounded-full mb-5 flex items-center justify-center ' >
                     <Logo 
@@ -19,16 +19,19 @@ export default function Footer() {
                 </h4>
                 <ul className='flex-col flex lg:flex-row items-center justify-center  text-xl lg:text-sm font-normal'>
                     <li className='mx-4 my-3 lg:my-0'>
+                        <Link href='/'><a className="hover:underline align-middle font-semibold cursor-pointer">Home</a></Link>
+                    </li>
+                    <li className='mx-4 my-3 lg:my-0'>
                         <Link href='/blog'><a className="hover:underline align-middle font-semibold cursor-pointer">Archive</a></Link>
+                    </li>
+                    <li className='mx-4 my-3 lg:my-0'>  
+                        <Link href='/about'><a className="hover:underline align-middle font-semibold cursor-pointer">About Us</a></Link>
                     </li>
                     <li className='mx-4 my-3 lg:my-0'>
                         <Link href='/terms-conditions'><a className="hover:underline align-middle font-semibold cursor-pointer">Terms & Conditions</a></Link>
                     </li>
                     <li className='mx-4 my-3 lg:my-0'>
                         <Link href='/privacy-policy'><a className="hover:underline align-middle font-semibold cursor-pointer">Privacy Policy</a></Link>
-                    </li>
-                    <li className='mx-4 my-3 lg:my-0'>
-                        <Link href='/contact'><a className="hover:underline align-middle font-semibold cursor-pointer">Contact Us</a></Link>
                     </li>
                 </ul>
                 <div className='border-t mt-8 border-main text-center text-sm text-gray-900 py-4 flex flex-col md:flex-row items-center justify-between'>
