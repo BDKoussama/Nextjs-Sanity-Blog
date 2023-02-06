@@ -59,6 +59,7 @@ export async function getStaticProps() {
             totalPages,
             currentPage : "1",
             categories
-        }
+        },
+        revalidate : 60
     }
 }
