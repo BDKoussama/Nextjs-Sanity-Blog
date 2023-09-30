@@ -14,7 +14,7 @@ const Post = ({post , relatedPosts}) => {
       <Seo 
         title={post?.title}
         description = {post?.excerpt}
-        url = {`https://occasiongiftideas.com/blog/post/${post?.slug}`}
+        url = {`https://example.com/blog/post/${post?.slug}`}
         image = {`${urlForImage(post?.mainImage).fit('max').auto('format').url()}`}
       />
      <Container>

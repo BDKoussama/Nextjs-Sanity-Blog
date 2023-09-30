@@ -20,7 +20,7 @@ export default function Seo({title, description, image , url}) {
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image}/>
             <meta property="og:url" content={url} />
-            <meta property="og:site_name" content="Occasion Gift Ideas" />
+            <meta property="og:site_name" content="Site Name" />
 
 
             {/* Twitter  */}

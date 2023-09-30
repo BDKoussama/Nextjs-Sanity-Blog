@@ -13,10 +13,10 @@ export default function Policy ({policy}) {
     return (
         <Layout>
             <Seo 
-                title="Privacy Policy | Occasion Gift Ideas"
-                description= "Protecting your privacy is of utmost importance to us. Read our Privacy Policy to learn about the information we collect, how we use it, and your rights. Trust us to handle your personal data responsibly."
-                image = "https://occasiongiftideas.com/images/Home.jpg"
-                url = "https://occasiongiftideas.com/privacy-policy"
+                title="Privacy Policy"
+                description= "Policy privacy by chatgpt."
+                image = "https://example.com/images/Home.jpg"
+                url = "https://example.com/privacy-policy"
             />
             <Container>
                 <div className={`p-10  bg-white shadow-lg rounded-lg mx-auto ${markdownStyles.markdown}`}>

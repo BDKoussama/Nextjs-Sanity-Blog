@@ -7,9 +7,8 @@ import { vercelDeployTool } from 'sanity-plugin-vercel-deploy'
 export default defineConfig({
   name: 'default',
   title: 'giftideas',
-
-  projectId: '6gdfzodu',
-  dataset: 'production',
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
 
   plugins: [ 
       deskTool(), 

@@ -8,17 +8,17 @@ export default function Contact () {
     return (
         <Layout>
             <Seo 
-                title="Contact Us | Occasion Gift Ideas"
-                description= "Get in touch with us for any questions, feedback or suggestions. Our friendly support team is here to assist you. Visit our Contact page to send us a message or find our contact information."
-                image = "https://occasiongiftideas.com/images/Contact.jpg"
-                url = "https://occasiongiftideas.com/contact"
+                title="Contact Us | Contact Page Title"
+                image = "https://example.com/images/gift-box-confetti.webp"
+                url = "https://example.com/Contact"
+                description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nisi maximus"
             />
             <Container>
                 <div className={`p-10  bg-white shadow-lg rounded-lg mx-auto ${markdownStyles.markdown}`}>
                     <h1 className="text-2xl lg:text-2xl font-bold">Contact us</h1>
 
                     <div className="mr-0 md:mr-40">
-                        
+                        You can Add Contact Form Here
                     </div>
                 </div>
             </Container>

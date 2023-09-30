@@ -8,14 +8,10 @@ export default function Footer() {
         <footer className="bg-violet-50 px-5 py-10 text-center mt-20">
             <Container>
                 <div className='mx-auto rounded-full mb-5 flex items-center justify-center ' >
-                    <Logo 
-                        gradientIdFirst= "paint6_linear_1_21" 
-                        gradientIdSecond= "paint7_linear_1_21" 
-                        gradientIdLast = "paint8_linear_1_21" 
-                    />
+                    <Logo />
                 </div>
                 <span className='block font-bold text-sm md:text-lg w-full md:w-[38vw] mx-auto mb-5'>
-                    Your one-stop destination for unique and thoughtful gift ideas for any occasion.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </span>
                 <ul className='flex-col flex lg:flex-row items-center justify-center  text-xl lg:text-sm font-normal'>
                     <li className='mx-4 my-3 lg:my-0'>
@@ -35,7 +31,7 @@ export default function Footer() {
                     </li>
                 </ul>
                 <div className='border-t mt-8 border-main text-center text-sm text-gray-900 py-4 flex flex-col md:flex-row items-center justify-between'>
-                    <p>Copyright© 2022 OccasionGiftIdeas.</p>
+                    <p>Copyright© 2022 Nextjs-Sanity-Blog.</p>
                     <p>All rights reserved</p>
                 </div>
             </Container>

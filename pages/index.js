@@ -5,7 +5,6 @@ import PostCard from '../components/PostCard'
 import PostWidget from '../components/PostWidget';
 import Categories from '../components/Categories';
 import { getRecentPosts, getCategories } from '../lib/queries';
-import FeaturedPosts from '../components/FeaturedPosts';
 import Link from 'next/link';
 import Seo from '../components/Seo'
 
@@ -14,10 +13,10 @@ export default function Home({posts , categories}) {
     <>
       <Layout>
           <Seo 
-                title="Home | Occasion Gift Ideas"
-                image = "https://occasiongiftideas.com/images/Home.jpg"
-                url = "https://occasiongiftideas.com/"
-                description = "Discover unique and thoughtful gift ideas for every occasion on our site. Browse our curated collection and find the perfect present for friends, family, and loved ones."
+                title="Home | Home Page Title"
+                image = "https://example.com/images/gift-box-confetti.webp"
+                url = "https://example.com/"
+                description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nisi maximus"
             />
          <Container>
 

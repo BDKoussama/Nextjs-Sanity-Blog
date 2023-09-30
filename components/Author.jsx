@@ -18,7 +18,7 @@ export default function Author({author}){
             <h3 className="text-white mt-4 mb-4 text-xl font-bold text-black capitalize">{author?.name}</h3>
             <div className="text-white text-ls text-black font-medium">
                 <PortableText
-                        value={author?.bio}
+                    value={author?.bio}
                 />
             </div>
       </div>

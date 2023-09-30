@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.occasiongiftideas.com
+Host: https://www.example.com
 
 # Sitemaps
-Sitemap: https://www.occasiongiftideas.com/sitemap.xml
+Sitemap: https://www.example.com/sitemap.xml

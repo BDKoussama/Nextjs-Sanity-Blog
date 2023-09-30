@@ -8,11 +8,11 @@ import Image from 'next/image';
 export default function About () {
     return (
         <Layout>
-            <Seo
-                title= "About | Occasion Gift Ideas"
-                description = "Learn about our mission to provide inspiration for gift giving. Discover the team behind our site, and how we bring you the latest and greatest gift ideas for all your gifting needs."
-                image= "https://occasiongiftideas.com/images/About.jpg"
-                url= "https://occasiongiftideas.com/about"
+            <Seo 
+                title="Home | About Page Title"
+                image = "https://example.com/images/gift-box-confetti.webp"
+                url = "https://example.com/About"
+                description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nisi maximus"
             />
             <Container>
                 <div className={`p-5 mx-auto ${markdownStyles.markdown} !text-center`}>
@@ -44,22 +44,24 @@ export default function About () {
                         </div>
                     </div>
 
-                    <h1 className="text-2xl lg:text-2xl font-bold text-main !text-center">About Occasion Gift Ideas</h1>
+                    <h1 className="text-2xl lg:text-2xl font-bold text-main !text-center">About Us</h1>
 
                     <div className="text-center mt-0 w-full md:w-8/12 mx-auto">
-                        <h4 className="mx-auto">your one-stop destination for unique and thoughtful gift ideas for any occasion.</h4>
+                        <h4 className="mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                     </div>
 
                     
 
                     <div className="w-full mt-5 md:mt-20 w-full md:w-8/12 mx-auto">
-                        <p>We understand that shopping for gifts can be overwhelming, which is why we've curated a diverse collection of gift ideas that cater to different tastes, interests, and budgets. From stylish accessories to gadgets and home decor, we've got you covered.</p>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nisi maximus, porttitor dolor quis, lobortis diam. Duis orci massa, accumsan a eros a, porta semper libero. Vestibulum non quam magna.
+                        </p>
                         <h2 className="mx-auto">Uncovering the Best Products for You</h2>
-                        <p>Our team of experienced gift gurus works tirelessly to find the latest and greatest products on the market and bring them to you in one convenient place. We only feature products that we believe in, and we aim to provide you with the most comprehensive and accurate product information available.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nisi maximus, porttitor dolor quis, lobortis diam. Duis orci massa, accumsan a eros a, porta semper libero. Vestibulum non quam magna.</p>
                         <h2 className="mx-auto">Putting Customers First: Our Affiliate Promise</h2>
-                        <p>We are proud to be an affiliate website and earn a commission on each sale made through our website. However, our commitment to our customers always comes first, and we only feature products that we believe will add value to your life.</p>
-                        <h2 className="mx-auto">Your Gift-Giving Journey Starts Here: Thank You for Choosing Gift Ideas</h2>
-                        <p>Thank you for choosing Occasion Gift Ideas. We hope you find the perfect gift for your loved ones, and we look forward to serving you in the future. If you have any questions or suggestions, please don't hesitate to <Link href="https://occasiongiftideas.com/contact"><a>contact us.</a></Link></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nisi maximus, porttitor dolor quis, lobortis diam. Duis orci massa, accumsan a eros a, porta semper libero. Vestibulum non quam magna.</p>
+                        <h2 className="mx-auto">Thank You for Choosing Lorem</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nisi maximus, porttitor dolor quis, lobortis diam. Duis orci massa, accumsan a eros a, porta semper libero. Vestibulum non quam magna. <Link href="https://example.com/contact"><a>contact us.</a></Link></p>
                     </div>
                 </div>
             </Container>
